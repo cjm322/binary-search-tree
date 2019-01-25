@@ -1,3 +1,26 @@
+# Binary Search Tree
+This is an implementation of the binary search tree data structure in Python.
+A binary search tree is a very efficient way to store and retrieve data in an ordered manner.
+# Programmatic usage
+```
+from binary_search_tree import Node, BinarySearchTree
+
+bst = BinarySearchTree()
+
+# Insert values into the binary search tree
+bst.insert(10)
+bst.insert(20)
+bst.insert(5)
+bst.insert(1)
+bst.inser(40)
+
+# Output the smallest value and largest value in the tree
+print(bst.getMinValue())
+print(bst.getMaxValue())
+
+# Output the entire tree
+bst.traverse()
+```
 # Linked Lists vs. Sorted Arrays
 ## Sorted Arrays
 - Insterting a new item is quite slow: O(N)
